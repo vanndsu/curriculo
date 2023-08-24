@@ -12,14 +12,15 @@ header {
   display: flex;
   align-items: center;
   margin-bottom: 30px;
+  
 }
 .header-logo img {
-  width: 120px;
-  height: 120px;
+  width: 320px;
+  height: 320px;
   border-radius: 10px;
 }
 .header-nome {
-  font-size: 30px;
+  font-size: 70px;
   margin-left: 25px;
 }
 
@@ -40,7 +41,7 @@ main section {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 20px;
+  font-size: 40px;
 }
 .header-topics-icon {
   display: flex;
@@ -52,21 +53,29 @@ main section {
 .area-head {
   font-weight: bold;
   margin-bottom: 0;
+  font-size: 25px;
 }
 .area-desc {
   width: 700px;
-  font-size: 15px;
+  font-size: 20px;
 }
 .area-periodo {
   margin-top: 0;
-  font-size: 13px;
+  font-size: 18px;
 }
 aside {
   flex: 1;
   margin-left: 50px;
 }
+aside h1 {
+  font-size: 40px;
+}
 .dados-pessoais p {
   margin: 5px;
+  font-size: 20px;
+}
+.competencias ul{
+  font-size: 20px;
 }
 section {
   margin-bottom: 50px;
