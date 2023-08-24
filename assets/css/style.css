@@ -1,54 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,400&family=Oswald:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,400&family=Oswald:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100&display=swap");
 /* 
 font-family: 'Open Sans', sans-serif;
 font-family: 'Oswald', sans-serif;
 font-family: 'Poppins', sans-serif;
 */
-body{
-    margin: 25px;
-    font-family: 'Poppins', sans-serif;
+body {
+  margin: 25px;
+  font-family: "Poppins", sans-serif;
 }
-header{
-    display: flex;
-    align-items: center;
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
 }
-.header-logo img{
-    width: 120px;
-    height: 120px;
-    border-radius: 10px;
+.header-logo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
 }
-.header-nome{
-    
-    font-size: 30px;
-    margin-left: 25px;
-}
-
-main{
-    display: flex;
-}
-.main-area{
-    flex: 3;
-}
-main section{
-    display: flex;
-    flex-direction: column;
+.header-nome {
+  font-size: 30px;
+  margin-left: 25px;
 }
 
-.header-topics{
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 20px;
-
+main {
+  display: flex;
 }
-.header-topics-icon{
-    display: flex;
-    align-items: center;
+.main-area {
+  flex: 3;
 }
-.area-trabalho p{
-    font-size: 15px;
-    font-weight: 500;
+main section {
+  display: flex;
+  flex-direction: column;
 }
-aside{
-    flex: 1;
+.header-topics-text {
+  font-weight: bold;
+}
+.header-topics {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 20px;
+}
+.header-topics-icon {
+  display: flex;
+  align-items: center;
+}
+.area-topics {
+  width: 1200px;
+  margin-left: 37px;
+}
+.area-head {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.area-desc {
+  width: 700px;
+  font-size: 15px;
+}
+.area-periodo {
+  margin-top: 0;
+  font-size: 13px;
+}
+aside {
+  flex: 1;
+}
+.dados-pessoais p {
+  margin: 5px;
 }
