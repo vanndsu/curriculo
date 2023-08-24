@@ -27,7 +27,7 @@ main {
   display: flex;
 }
 .main-area {
-  flex: 3;
+  flex: 2;
 }
 main section {
   display: flex;
@@ -47,7 +47,6 @@ main section {
   align-items: center;
 }
 .area-topics {
-  width: 1200px;
   margin-left: 37px;
 }
 .area-head {
